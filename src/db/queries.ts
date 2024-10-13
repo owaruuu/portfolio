@@ -1,5 +1,4 @@
-import { UseQueryResult } from "@tanstack/react-query";
-import axios, { AxiosResponse } from "axios";
+import axios from "axios";
 import { siteData } from "../types";
 
 const API_URL = "http://localhost:3000";
