@@ -15,11 +15,11 @@ function App() {
 
     return (
         <>
-            <Header data={headerData} />
+            {/* <Header data={headerData} /> */}
 
             <Hero></Hero>
 
-            <footer>footer</footer>
+            {/* <footer>footer</footer> */}
         </>
     );
 }
