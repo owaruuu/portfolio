@@ -1,0 +1,15 @@
+header {
+  border: thin solid red;
+  display: flex;
+  align-items: center;
+}
+header .nameTitle {
+  display: flex;
+  align-items: center;
+}
+header .nameTitle h5 {
+  margin-left: 10px;
+}
+header .emailButton {
+  margin-left: auto;
+}/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,18 @@
+header {
+    border: thin solid red;
+    display: flex;
+    align-items: center;
+
+    .nameTitle {
+        display: flex;
+        align-items: center;
+
+        h5 {
+            margin-left: 10px;
+        }
+    }
+
+    .emailButton {
+        margin-left: auto;
+    }
+}
