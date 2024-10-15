@@ -4,19 +4,63 @@ header {
     border-bottom: thin solid $accentColor;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
 
     .nameTitle {
         display: flex;
         align-items: center;
 
-        h5 {
+        h6 {
             margin: 0;
             margin-left: 10px;
             margin-bottom: 20px;
         }
     }
 
-    .emailButton {
+    .feedback {
+        position: relative;
         margin-left: auto;
+        margin-right: 5px;
+        color: $accentColor;
+        animation-name: example;
+        animation-duration: 2s;
+
+        @keyframes example {
+            0% {
+                top: -10px;
+            }
+            10% {
+                top: 3px;
+            }
+            15% {
+                top: 0px;
+            }
+        }
+    }
+
+    .emailButton {
+        display: flex;
+        align-items: center;
+        background-color: $bgColor;
+        padding: 10px;
+        // margin-left: auto;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: darken($bgColor, 5%);
+        }
+
+        &:active {
+            background-color: darken($bgColor, 10%);
+        }
+
+        span {
+            margin-left: 10px;
+        }
+
+        transition: 0.4s;
     }
 }

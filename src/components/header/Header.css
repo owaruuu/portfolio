@@ -1,17 +1,54 @@
 header {
-  border-bottom: thin solid red;
+  border-bottom: thin solid #ba60fb;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
 }
 header .nameTitle {
   display: flex;
   align-items: center;
 }
-header .nameTitle h5 {
+header .nameTitle h6 {
   margin: 0;
   margin-left: 10px;
   margin-bottom: 20px;
 }
-header .emailButton {
+header .feedback {
+  position: relative;
   margin-left: auto;
+  margin-right: 5px;
+  color: #ba60fb;
+  animation-name: example;
+  animation-duration: 2s;
+}
+@keyframes example {
+  0% {
+    top: -10px;
+  }
+  10% {
+    top: 3px;
+  }
+  15% {
+    top: 0px;
+  }
+}
+header .emailButton {
+  display: flex;
+  align-items: center;
+  background-color: #242424;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+header .emailButton:hover {
+  background-color: #171717;
+}
+header .emailButton:active {
+  background-color: #0b0b0b;
+}
+header .emailButton span {
+  margin-left: 10px;
 }/*# sourceMappingURL=Header.css.map */
