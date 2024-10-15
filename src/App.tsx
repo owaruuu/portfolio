@@ -13,11 +13,16 @@ function App() {
         email: dataQuery.data?.email,
     };
 
+    const heroData = {
+        projects: dataQuery.data?.projects,
+    };
+    console.log("🚀 ~ App ~ heroData:", heroData);
+
     return (
         <>
             <Header data={headerData} />
 
-            <Hero></Hero>
+            <Hero data={heroData}></Hero>
 
             {/* <footer>footer</footer> */}
         </>

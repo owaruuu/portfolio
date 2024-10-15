@@ -6,4 +6,13 @@ export type siteData = {
     age: number;
     city: string;
     hobbies: string[];
+    projects: project[];
+};
+
+export type project = {
+    src: string;
+    title: string;
+    description: string;
+    link: string;
+    tech: string[];
 };

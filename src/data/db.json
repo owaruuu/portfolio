@@ -6,6 +6,15 @@
         "phone": "+1 123-456-7890",
         "age": 30,
         "city": "New York",
-        "hobbies": ["reading", "painting", "traveling"]
+        "hobbies": ["reading", "painting", "traveling"],
+        "projects": [
+            {
+                "src": "https://example.com/project1.jpg",
+                "title": "Hiragana & Katakana",
+                "description": "A web application for learning and practicing Hiragana and Katakana.",
+                "link": "https://example.com/hiragana-katakana",
+                "tech": ["React", "Node.js", "MongoDB"]
+            }
+        ]
     }
 }
