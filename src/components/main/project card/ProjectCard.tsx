@@ -1,27 +1,40 @@
+import TechTag from "./TechTag";
+
 type props = {
     src: string;
     title: string;
     description: string;
+    date: string;
     link: string;
     tech: string[];
 };
 
-const ProjectCard = ({ src, title, description, link, tech }: props) => {
+const ProjectCard = ({ src, title, description, date, link, tech }: props) => {
     function handleClick() {
         window.open(link, "_blank");
     }
 
-    const techs = tech.map((item, index) => <span key={index}>{item}</span>);
+    const techs = tech.map((item, index) => (
+        <TechTag key={index} name={item} />
+    ));
 
     return (
         <div className="projectCard">
             <button onClick={handleClick}>
-                <img src={src} alt="Imagen de la pagina web"></img>
+                <div className="image">
+                    <img src={src} alt="Imagen de la pagina web"></img>
+                </div>
+
                 <div className="cardDivider"></div>
-                <h2>{title}</h2>
-                <p>{description}</p>
+                <div className="cardInfo">
+                    <div>
+                        <h3>{title}</h3>
+                        <h5>{date}</h5>
+                    </div>
+                    <p>{description}</p>
+                </div>
             </button>
-            {techs}
+            <div className="techDiv">{techs}</div>
         </div>
     );
 };

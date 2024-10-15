@@ -1,5 +1,7 @@
+@import "../../globals";
+
 header {
-    border: thin solid red;
+    border-bottom: thin solid $accentColor;
     display: flex;
     align-items: center;
 
@@ -8,7 +10,9 @@ header {
         align-items: center;
 
         h5 {
+            margin: 0;
             margin-left: 10px;
+            margin-bottom: 20px;
         }
     }
 

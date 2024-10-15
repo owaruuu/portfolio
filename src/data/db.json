@@ -9,11 +9,30 @@
         "hobbies": ["reading", "painting", "traveling"],
         "projects": [
             {
-                "src": "https://example.com/project1.jpg",
-                "title": "Hiragana & Katakana",
-                "description": "A web application for learning and practicing Hiragana and Katakana.",
+                "src": "https://placehold.co/250",
+                "title": "Kana Practice",
+                "description": "Una aplicacion para aprender y practicar los silabarios japoneses.",
+                "date": "2022 - presente",
                 "link": "https://example.com/hiragana-katakana",
-                "tech": ["React", "Node.js", "MongoDB"]
+                "tech": ["Javascript", "Responsive", "CSS"]
+            },
+            {
+                "src": "https://placehold.co/250",
+                "title": "Renshuu",
+                "description": "Una aplicacion para memorizar el vocabulario japones, tambien es posible hacer pruebas para practicar los conceptos de gramatica de algunas lecciones, por ultimo, un modo especial para memorizar los significados de Kanji y su escritura. Es posible crear una cuenta de usuario y guardar informacion sobre las sesiones de estudio en ellas.",
+                "date": "2023 - presente",
+                "link": "https://example.com/renshuu",
+                "tech": [
+                    "React",
+                    "React Router",
+                    "Express.js",
+                    "AWS",
+                    "SASS",
+                    "DynamoDB",
+                    "Cognito",
+                    "S3",
+                    "CloudFront"
+                ]
             }
         ]
     }

@@ -1,5 +1,5 @@
 header {
-  border: thin solid red;
+  border-bottom: thin solid red;
   display: flex;
   align-items: center;
 }
@@ -8,7 +8,9 @@ header .nameTitle {
   align-items: center;
 }
 header .nameTitle h5 {
+  margin: 0;
   margin-left: 10px;
+  margin-bottom: 20px;
 }
 header .emailButton {
   margin-left: auto;
