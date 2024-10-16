@@ -4,7 +4,7 @@ main {
 main .sectionDivider {
   margin: 30px auto;
   width: 80%;
-  border-bottom: thin solid #ba60fb;
+  border-bottom: thin solid #7d3074;
 }
 main .projects {
   display: flex;
@@ -33,7 +33,7 @@ main .projects {
 }
 .projectCard .cardDivider {
   width: 100%;
-  border-top: thin solid #ba60fb;
+  border-top: thin solid #7d3074;
 }
 .projectCard .cardInfo div {
   display: flex;

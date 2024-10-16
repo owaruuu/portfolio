@@ -3,6 +3,7 @@ import "./App.css";
 import Hero from "./components/main/Hero";
 import { getData } from "./db/queries";
 import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
 function App() {
     const dataQuery = useQuery({ queryKey: ["siteData"], queryFn: getData });
@@ -18,13 +19,19 @@ function App() {
     };
     console.log("🚀 ~ App ~ heroData:", heroData);
 
+    const footerData = {
+        email: dataQuery.data?.email,
+        phone: dataQuery.data?.phone,
+        linkedin: dataQuery.data?.linkedin,
+    };
+
     return (
         <>
             <Header data={headerData} />
 
             <Hero data={heroData}></Hero>
 
-            {/* <footer>footer</footer> */}
+            <Footer data={footerData}></Footer>
         </>
     );
 }

@@ -29,7 +29,7 @@ const Header = (props: props) => {
     function handleClick() {
         console.log("copiado");
         navigator.clipboard.writeText(email || "");
-        setTimer(2); // seconds to show "Copied!" message
+        setTimer(2);
     }
 
     return (
