@@ -5,16 +5,13 @@
         "email": "owaruuu@gmail.com",
         "phone": "+569 6545 5178",
         "linkedin": "https://www.linkedin.com/in/josuemarquez/",
-        "age": 30,
-        "city": "New York",
-        "hobbies": ["reading", "painting", "traveling"],
         "projects": [
             {
                 "src": "https://placehold.co/300x250",
                 "title": "Kana Practice",
                 "description": "Una aplicacion para aprender y practicar los silabarios japoneses.",
                 "date": "2022 - presente",
-                "link": "https://example.com/hiragana-katakana",
+                "link": "https://owaruuu.github.io/kanapractice/",
                 "tech": ["Javascript", "Responsive", "CSS"]
             },
             {
@@ -22,7 +19,7 @@
                 "title": "Renshuu",
                 "description": "Una aplicacion para memorizar el vocabulario japones, tambien es posible hacer pruebas para practicar los conceptos de gramatica de algunas lecciones, por ultimo, un modo especial para memorizar los significados de Kanji y su escritura. Es posible crear una cuenta de usuario y guardar informacion sobre las sesiones de estudio en ellas.",
                 "date": "2023 - presente",
-                "link": "https://example.com/renshuu",
+                "link": "https://renshuu.owaruuu.xyz/lectures",
                 "tech": [
                     "React",
                     "React Router",
@@ -35,6 +32,55 @@
                     "CloudFront"
                 ]
             }
+        ],
+        "profile": "Aprendiendo Web Development desde el 2022, antes de eso programador C# Unity autodidacta, Ilustrador 2D Freelance y Modelador 3D Freelance. Me gusta aprender nuevas herramientas, técnicas y tecnologías en profundidad, crear páginas y colaborar en equipo. Creé una SPA para aprender hiragana y katakana. Creé una SPA para aprender Japones con Cuentas de usuario y Base de datos potenciadas con AWS. Mi objetivo actual es seguir aprendiendo para ser capaz de crear Páginas que impacten positivamente la manera en que se aprende el Lenguaje Japonés.",
+        "location": "Valparaiso, Chile",
+        "education": [
+            {
+                "title": "Bootcamp Full-Stack Javascript",
+                "place": "Awakelab",
+                "duration": "Marzo 2023 - Septiembre 2023"
+            },
+            {
+                "title": "Unity C#",
+                "place": "Autodidacta",
+                "duration": "2020 - 2023"
+            },
+            {
+                "title": "Animacion Digital",
+                "place": "Instituto Profesional Arcos",
+                "duration": "2010 - 2012"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Español",
+                "level": "Nativo"
+            },
+            {
+                "name": "Ingles",
+                "level": "C2"
+            },
+            {
+                "name": "Japonés",
+                "level": "Basico"
+            }
+        ],
+        "skills": [
+            "Express.js",
+            "API(CRUD)",
+            "Typescript",
+            "React",
+            "React Router",
+            "AWS",
+            "CSS",
+            "SASS",
+            "MUI",
+            "DynamoDB",
+            "Cognito",
+            "S3",
+            "CloudFront",
+            "git"
         ]
     }
 }

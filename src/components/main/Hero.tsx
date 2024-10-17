@@ -3,18 +3,18 @@ import ProjectCard from "./project card/ProjectCard";
 import "./Hero.css";
 
 type props = {
-    data: { projects: project[] | undefined };
+    projects: project[] | undefined;
 };
 
 const Hero = (props: props) => {
-    const { data } = props;
+    const { projects } = props;
 
     return (
-        <main>
+        <>
             <h1>Proyectos</h1>
             <div className="projects">
-                {data &&
-                    data.projects?.map((project, index) => {
+                {projects &&
+                    projects?.map((project, index) => {
                         return (
                             <ProjectCard
                                 key={index}
@@ -28,9 +28,7 @@ const Hero = (props: props) => {
                         );
                     })}
             </div>
-
-            <div className="sectionDivider"></div>
-        </main>
+        </>
     );
 };
 

@@ -4,6 +4,7 @@ import Hero from "./components/main/Hero";
 import { getData } from "./db/queries";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
+import Main from "./components/main/Main";
 
 function App() {
     const dataQuery = useQuery({ queryKey: ["siteData"], queryFn: getData });
@@ -13,8 +14,12 @@ function App() {
         title: dataQuery.data?.title,
     };
 
-    const heroData = {
+    const mainData = {
         projects: dataQuery.data?.projects,
+        profile: dataQuery.data?.profile,
+        education: dataQuery.data?.education,
+        languages: dataQuery.data?.languages,
+        skills: dataQuery.data?.skills,
     };
 
     const footerData = {
@@ -27,7 +32,7 @@ function App() {
         <>
             <Header data={headerData} />
 
-            <Hero data={heroData}></Hero>
+            <Main data={mainData}></Main>
 
             <Footer data={footerData}></Footer>
         </>
