@@ -11,6 +11,7 @@ const Hero = (props: props) => {
 
     return (
         <main>
+            <h1>Proyectos</h1>
             <div className="projects">
                 {data &&
                     data.projects?.map((project, index) => {

@@ -13,9 +13,8 @@ type props = {
 };
 
 const Footer = (props: props) => {
-    const { email, phone } = props.data;
-    let { linkedin } = props.data;
-    linkedin = linkedin?.substring(12);
+    const { email, phone, linkedin } = props.data;
+    let shorterLinkedin = linkedin?.substring(12);
 
     return (
         <footer>
@@ -26,11 +25,19 @@ const Footer = (props: props) => {
                     content: email,
                 }}
             ></CopyButton>
-            <button>
-                <FaPhoneSquareAlt /> {phone}
-            </button>
-            <button>
-                <FaLinkedin /> {linkedin}
+            <CopyButton
+                data={{
+                    feedback: "Telefono copiado!",
+                    icon: <FaPhoneSquareAlt />,
+                    content: phone,
+                }}
+            ></CopyButton>
+            <button
+                onClick={() => {
+                    window.open(linkedin, "_blank");
+                }}
+            >
+                <FaLinkedin /> {shorterLinkedin}
             </button>
         </footer>
     );

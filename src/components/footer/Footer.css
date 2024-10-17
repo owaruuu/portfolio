@@ -7,19 +7,21 @@ footer {
   position: fixed;
   bottom: 0;
   background-color: #7d3074;
+  background: rgb(2, 0, 36);
+  background: rgb(2, 0, 36);
 }
 footer button {
   display: flex;
   align-items: center;
   border: none;
-  background-color: #7d3074;
+  background-color: transparent;
   height: 100%;
   padding: 0 10px;
   transition: 0.4s;
   cursor: pointer;
 }
 footer button:hover {
-  background-color: #8f3785;
+  background-color: rgb(29, 1, 39);
 }
 footer button svg {
   margin-right: 5px;

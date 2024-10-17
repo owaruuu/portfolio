@@ -9,19 +9,22 @@ footer {
     position: fixed;
     bottom: 0;
     background-color: $accentColor;
+    background: rgb(2, 0, 36);
+    background: rgba(2, 0, 36, 1);
 
     button {
         display: flex;
         align-items: center;
         border: none;
-        background-color: $accentColor;
+        // background-color: $accentColor;
+        background-color: transparent;
         height: 100%;
         padding: 0 10px;
         transition: 0.4s;
         cursor: pointer;
 
         &:hover {
-            background-color: lighten($accentColor, 5%);
+            background-color: rgb(29 1 39);
         }
 
         svg {

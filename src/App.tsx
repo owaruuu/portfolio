@@ -11,13 +11,11 @@ function App() {
     const headerData = {
         name: dataQuery.data?.name,
         title: dataQuery.data?.title,
-        email: dataQuery.data?.email,
     };
 
     const heroData = {
         projects: dataQuery.data?.projects,
     };
-    console.log("🚀 ~ App ~ heroData:", heroData);
 
     const footerData = {
         email: dataQuery.data?.email,

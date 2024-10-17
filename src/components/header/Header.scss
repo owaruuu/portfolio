@@ -23,20 +23,6 @@ header {
         margin-left: auto;
         margin-right: 5px;
         color: $accentColor;
-        animation-name: example;
-        animation-duration: 2s;
-
-        @keyframes example {
-            0% {
-                top: -10px;
-            }
-            10% {
-                top: 3px;
-            }
-            15% {
-                top: 0px;
-            }
-        }
     }
 
     .emailButton {

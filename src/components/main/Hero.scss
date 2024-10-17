@@ -2,6 +2,7 @@
 
 main {
     padding: 30px 0;
+    padding-bottom: 200px;
 
     .sectionDivider {
         margin: 30px auto;
@@ -19,18 +20,27 @@ main {
 
 .projectCard {
     display: flex;
+
     flex-direction: column;
     align-items: center;
     max-width: 310px;
 
     button {
+        box-sizing: content-box;
         border: none;
+        border: solid thin $accentColor;
+        background-color: #00000030;
         margin: 10px 30px;
         padding: 0;
         width: 300px;
         border-radius: 0 0 10px 10px;
         cursor: pointer;
         // height: 250px;
+        transition: 0.3s;
+
+        &:hover {
+            border-color: lighten($accentColor, 20%);
+        }
     }
 
     .image {
@@ -47,6 +57,7 @@ main {
         div {
             display: flex;
             justify-content: space-around;
+            align-items: center;
 
             h5 {
                 font-family: monospace;
@@ -67,7 +78,8 @@ main {
 
     .techTag {
         flex: auto;
-        background-color: $tagColor;
+        border: thin solid $accentColor;
+        background-color: #00000018;
         margin: 5px 5px;
         padding: 0 5px;
         border-radius: 5px;
