@@ -17,6 +17,7 @@
     }
     .sideBySide {
         display: grid;
+        margin-top: 10px;
         width: 80%;
         grid-template-columns: 1fr 1fr;
 

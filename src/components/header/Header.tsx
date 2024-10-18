@@ -5,11 +5,12 @@ type props = {
     data: {
         name: string | undefined;
         title: string | undefined;
+        location: string | undefined;
     };
 };
 
 const Header = (props: props) => {
-    const { name, title } = props.data;
+    const { name, title, location } = props.data;
 
     return (
         <header>
@@ -17,6 +18,8 @@ const Header = (props: props) => {
                 <h1>{name}</h1>
                 <PiStarFourFill />
                 <h1>{title}</h1>
+                <PiStarFourFill />
+                <h1>{location}</h1>
             </div>
         </header>
     );

@@ -4,6 +4,7 @@ main {
 }
 main h1 {
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 main .sectionDivider {
   margin: 30px auto;

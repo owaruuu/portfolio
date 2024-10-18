@@ -11,6 +11,7 @@ function App() {
     const headerData = {
         name: dataQuery.data?.name,
         title: dataQuery.data?.title,
+        location: dataQuery.data?.location,
     };
 
     const mainData = {
