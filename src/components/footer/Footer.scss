@@ -12,6 +12,15 @@ footer {
     background: rgb(2, 0, 36);
     background: rgba(2, 0, 36, 1);
 
+    @media (max-width: 676px) {
+        height: auto;
+        flex-direction: column;
+
+        button {
+            margin: 10px 0;
+        }
+    }
+
     button {
         display: flex;
         align-items: center;

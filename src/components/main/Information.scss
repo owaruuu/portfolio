@@ -1,4 +1,59 @@
+@import "../../globals";
 .information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .star {
+        svg {
+            fill: rgb(143 56 142);
+        }
+    }
+    h2 {
+        border-bottom: 3px solid $accentColor;
+    }
+    .profile {
+        width: 80%;
+    }
+    .sideBySide {
+        display: grid;
+        width: 80%;
+        grid-template-columns: 1fr 1fr;
+
+        @media (max-width: 676px) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .educations {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media (max-width: 676px) {
+            margin-bottom: 30px;
+        }
+
+        div {
+            gap: 20px;
+            // height: 150px;
+            //     margin: 30px auto;
+            // width: 30%;
+        }
+    }
+    .languages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @media (max-width: 676px) {
+            margin-bottom: 30px;
+        }
+        // div {
+        //     display: flex;
+        //     align-items: center;
+        // }
+    }
+
     .skills {
         display: flex;
         flex-direction: column;

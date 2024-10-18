@@ -2,19 +2,36 @@
 
 header {
     border-bottom: thin solid $accentColor;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 0 10px;
 
     .nameTitle {
         display: flex;
+        justify-content: center;
         align-items: center;
+
+        @media (max-width: 678px) {
+            // background-color: red;
+            display: flex;
+            flex-direction: column;
+            font-size: 8px;
+        }
 
         h6 {
             margin: 0;
             margin-left: 10px;
             margin-bottom: 20px;
+        }
+
+        svg {
+            margin: 0 20px;
+            fill: #7d3074;
+            width: 31px;
+            height: auto;
+
+            @media (max-width: 678px) {
+                width: 14px;
+            }
         }
     }
 

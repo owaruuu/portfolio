@@ -1,3 +1,4 @@
+import { PiStarFourFill } from "react-icons/pi";
 import "./Header.css";
 
 type props = {
@@ -14,7 +15,8 @@ const Header = (props: props) => {
         <header>
             <div className="nameTitle">
                 <h1>{name}</h1>
-                <h6>{title}</h6>
+                <PiStarFourFill />
+                <h1>{title}</h1>
             </div>
         </header>
     );

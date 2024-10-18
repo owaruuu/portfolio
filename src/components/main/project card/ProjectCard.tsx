@@ -9,7 +9,14 @@ type props = {
     tech: string[];
 };
 
-const ProjectCard = ({ src, title, description, date, link, tech }: props) => {
+const ProjectCard = ({
+    src = "/flashcards square.png",
+    title,
+    description,
+    date,
+    link,
+    tech,
+}: props) => {
     function handleClick() {
         window.open(link, "_blank");
     }

@@ -10,6 +10,15 @@ footer {
   background: rgb(2, 0, 36);
   background: rgb(2, 0, 36);
 }
+@media (max-width: 676px) {
+  footer {
+    height: auto;
+    flex-direction: column;
+  }
+  footer button {
+    margin: 10px 0;
+  }
+}
 footer button {
   display: flex;
   align-items: center;

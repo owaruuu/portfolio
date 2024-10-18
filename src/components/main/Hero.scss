@@ -14,6 +14,12 @@ main {
         border-bottom: thin solid $accentColor;
     }
 
+    .smallDivider {
+        margin: 30px auto;
+        width: 30%;
+        border-bottom: thin solid $accentColor;
+    }
+
     .projects {
         display: flex;
         flex-wrap: wrap;
@@ -28,6 +34,10 @@ main {
     flex-direction: column;
     align-items: center;
     max-width: 310px;
+
+    @media (max-width: 676px) {
+        margin-bottom: 50px;
+    }
 
     button {
         box-sizing: content-box;
@@ -50,6 +60,10 @@ main {
     .image {
         width: 300px;
         height: 250px;
+
+        img {
+            width: 100%;
+        }
     }
 
     .cardDivider {

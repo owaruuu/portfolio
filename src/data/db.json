@@ -7,7 +7,7 @@
         "linkedin": "https://www.linkedin.com/in/josuemarquez/",
         "projects": [
             {
-                "src": "https://placehold.co/300x250",
+                "src": "https://d1oib1fwc6cyvj.cloudfront.net/kana%20square.png",
                 "title": "Kana Practice",
                 "description": "Una aplicacion para aprender y practicar los silabarios japoneses.",
                 "date": "2022 - presente",
@@ -15,7 +15,7 @@
                 "tech": ["Javascript", "Responsive", "CSS"]
             },
             {
-                "src": "https://placehold.co/300x250",
+                "src": "https://d1oib1fwc6cyvj.cloudfront.net/flashcards%20square.png",
                 "title": "Renshuu",
                 "description": "Una aplicacion para memorizar el vocabulario japones, tambien es posible hacer pruebas para practicar los conceptos de gramatica de algunas lecciones, por ultimo, un modo especial para memorizar los significados de Kanji y su escritura. Es posible crear una cuenta de usuario y guardar informacion sobre las sesiones de estudio en ellas.",
                 "date": "2023 - presente",
@@ -59,7 +59,7 @@
             },
             {
                 "name": "Ingles",
-                "level": "C2"
+                "level": "C2 Proficient"
             },
             {
                 "name": "Japonés",

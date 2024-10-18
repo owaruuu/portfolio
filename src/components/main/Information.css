@@ -1,3 +1,50 @@
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.information .star svg {
+  fill: rgb(143, 56, 142);
+}
+.information h2 {
+  border-bottom: 3px solid #7d3074;
+}
+.information .profile {
+  width: 80%;
+}
+.information .sideBySide {
+  display: grid;
+  width: 80%;
+  grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 676px) {
+  .information .sideBySide {
+    grid-template-columns: 1fr;
+  }
+}
+.information .educations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 676px) {
+  .information .educations {
+    margin-bottom: 30px;
+  }
+}
+.information .educations div {
+  gap: 20px;
+}
+.information .languages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 676px) {
+  .information .languages {
+    margin-bottom: 30px;
+  }
+}
 .information .skills {
   display: flex;
   flex-direction: column;
