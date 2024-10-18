@@ -1,6 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
 import "./App.css";
-import Hero from "./components/main/Hero";
 import { getData } from "./db/queries";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
@@ -8,7 +7,7 @@ import Main from "./components/main/Main";
 
 function App() {
     const dataQuery = useQuery({ queryKey: ["siteData"], queryFn: getData });
-    console.log("🚀 ~ Hero ~ dataQuery:", dataQuery);
+
     const headerData = {
         name: dataQuery.data?.name,
         title: dataQuery.data?.title,
