@@ -19,7 +19,7 @@
         display: grid;
         margin-top: 10px;
         width: 80%;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
 
         @media (max-width: 676px) {
             grid-template-columns: 1fr;

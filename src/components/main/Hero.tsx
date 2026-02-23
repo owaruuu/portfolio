@@ -11,7 +11,7 @@ const Hero = (props: props) => {
 
     return (
         <>
-            <h1>Proyectos</h1>
+            <h1>Projects</h1>
             <div className="projects">
                 {projects &&
                     projects?.map((project, index) => {

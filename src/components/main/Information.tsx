@@ -12,22 +12,22 @@ const Information = ({ profile, education, languages, skills }: props) => {
     return (
         <div className="information">
             <div className="profile">
-                <h1>Informacion</h1>
+                <h1>Information</h1>
                 <p>{profile}</p>
             </div>
             <div className="sideBySide">
                 <div className="educations">
-                    <h2>Educación</h2>
+                    <h2>Education</h2>
                     {education ? separateEducationWithStar(education) : ""}
                 </div>
                 <div className="languages">
-                    <h2>Idiomas</h2>
+                    <h2>Languages</h2>
                     {languages ? separateLangWithStar(languages) : ""}
                 </div>
             </div>
             <div className="sectionDivider"></div>
             <div className="skills">
-                <h2>Tecnologías</h2>
+                <h2>Technologies</h2>
                 <div>
                     {skills?.map((skill) => (
                         <span key={skill}>{skill}</span>
