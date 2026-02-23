@@ -1,15 +1,15 @@
 {
     "data": {
         "name": "Josue Marquez",
-        "title": "FullStack Developer",
-        "email": "josue.marquez.dev@gmail.com",
+        "title": "Desarrollador FullStack",
+        "email": "owaruuu@gmail.com",
         "phone": "+569 6545 5178",
         "linkedin": "https://www.linkedin.com/in/josuemarquez/",
         "projects": [
             {
                 "src": "https://d1oib1fwc6cyvj.cloudfront.net/kana%20square.png",
                 "title": "Kana Practice",
-                "description": "A simple application to learn and practice Japanese syllabaries.",
+                "description": "Una aplicacion para aprender y practicar los silabarios japoneses.",
                 "date": "2022 - presente",
                 "link": "https://owaruuu.github.io/kanapractice/",
                 "tech": ["Javascript", "Responsive", "CSS"]
@@ -17,7 +17,7 @@
             {
                 "src": "https://d1oib1fwc6cyvj.cloudfront.net/flashcards%20square.png",
                 "title": "Renshuu",
-                "description": "This application is designed to help users memorize Japanese vocabulary effectively. It includes quizzes to reinforce grammar concepts from various lessons, as well as a dedicated mode for practicing Kanji meanings and writing. Users can create an account to track their progress and save information about their study sessions.",
+                "description": "Una aplicación para memorizar el vocabulario japonés, también es posible tomar pruebas para practicar los conceptos de gramática de algunas lecciones, por último, un modo especial para memorizar los significados de Kanji y su escritura. Es posible crear una cuenta de usuario y guardar información sobre las sesiones de estudio en ellas.",
                 "date": "2023 - presente",
                 "link": "https://renshuu.owaruuu.xyz/lectures",
                 "tech": [
@@ -33,42 +33,37 @@
                 ]
             }
         ],
-        "profile": "I’ve been studying web development since 2022. Prior to that, I worked as a self-taught C# Unity developer, as well as a freelance 2D illustrator and 3D modeler. I enjoy diving deep into new tools, techniques, and technologies, building web applications, and collaborating with others to create meaningful projects. I developed a Single-Page Application (SPA) to help users learn hiragana and katakana, and later built a more advanced Japanese learning platform featuring user accounts and a database powered by AWS. My current goal is to continue growing as a developer and create web applications that positively impact how people learn Japanese.",
+        "profile": "Aprendiendo Web Development desde el 2022, antes de eso programador C# Unity autodidacta, Ilustrador 2D Freelance y Modelador 3D Freelance. Me gusta aprender nuevas herramientas, técnicas y tecnologías en profundidad, crear páginas y colaborar en equipo. Creé una SPA para aprender hiragana y katakana. Creé una SPA para aprender Japones con Cuentas de usuario y Base de datos potenciadas con AWS. Mi objetivo actual es seguir aprendiendo para ser capaz de crear Páginas que impacten positivamente la manera en que se aprende el Lenguaje Japonés.",
         "location": "Valparaiso, Chile",
         "education": [
             {
-                "title": "Bootcamp Cloud Security",
-                "place": "Talento Digital",
-                "duration": "June 2025 - September 2025"
-            },
-            {
                 "title": "Bootcamp Full-Stack Javascript",
-                "place": "Talento Digital",
-                "duration": "March 2023 - September 2023"
+                "place": "Awakelab",
+                "duration": "Marzo 2023 - Septiembre 2023"
             },
             {
                 "title": "Unity C#",
-                "place": "Self-taught",
+                "place": "Autodidacta",
                 "duration": "2020 - 2023"
             },
             {
-                "title": "Digital Animation",
+                "title": "Animacion Digital",
                 "place": "Instituto Profesional Arcos",
                 "duration": "2010 - 2012"
             }
         ],
         "languages": [
             {
-                "name": "Spanish",
-                "level": "Native"
+                "name": "Español",
+                "level": "Nativo"
             },
             {
-                "name": "English",
+                "name": "Ingles",
                 "level": "C2 Proficient"
             },
             {
-                "name": "Japanese",
-                "level": "Basic - N4"
+                "name": "Japonés",
+                "level": "Basico"
             }
         ],
         "skills": [
