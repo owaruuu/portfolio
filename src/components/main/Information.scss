@@ -42,6 +42,24 @@
             // width: 30%;
         }
     }
+
+    .certifications {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media (max-width: 676px) {
+            margin-bottom: 30px;
+        }
+
+        div {
+            gap: 20px;
+            // height: 150px;
+            //     margin: 30px auto;
+            // width: 30%;
+        }
+    }
+
     .languages {
         display: flex;
         flex-direction: column;

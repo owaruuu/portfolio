@@ -57,6 +57,23 @@
                 "duration": "2010 - 2012"
             }
         ],
+        "certifications": [
+            {
+                "title": "Google Cybersecurity Specialization",
+                "place": "Coursera",
+                "date": "2025"
+            },
+            {
+                "title": "Oracle Cloud Infrastructure Architect",
+                "place": "Oracle",
+                "date": "2025"
+            },
+            {
+                "title": "Developing Front End Apps With React",
+                "place": "edX",
+                "date": "2023"
+            }
+        ],
         "languages": [
             {
                 "name": "Spanish",

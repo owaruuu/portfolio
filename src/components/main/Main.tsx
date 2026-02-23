@@ -1,4 +1,4 @@
-import { education, language, project } from "../../types";
+import { certification, education, language, project } from "../../types";
 import "./Hero.css";
 import "./Information.css";
 import Information from "./Information";
@@ -9,6 +9,7 @@ type props = {
         projects: project[] | undefined;
         profile: string | undefined;
         education: education[] | undefined;
+        certifications: certification[] | undefined;
         languages: language[] | undefined;
         skills: string[] | undefined;
     };
@@ -24,6 +25,7 @@ const Main = (props: props) => {
             <Information
                 profile={data.profile}
                 education={data.education}
+                certifications={data.certifications}
                 languages={data.languages}
                 skills={data.skills}
             />

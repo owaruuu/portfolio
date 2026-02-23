@@ -1,14 +1,21 @@
-import { education, language } from "../../types";
+import { education, certification, language } from "../../types";
 import { PiStarFourFill } from "react-icons/pi";
 import { TbMinusVertical } from "react-icons/tb";
 
 type props = {
     profile: string | undefined;
     education: education[] | undefined;
+    certifications: certification[] | undefined;
     languages: language[] | undefined;
     skills: string[] | undefined;
 };
-const Information = ({ profile, education, languages, skills }: props) => {
+const Information = ({
+    profile,
+    education,
+    certifications,
+    languages,
+    skills,
+}: props) => {
     return (
         <div className="information">
             <div className="profile">
@@ -19,6 +26,12 @@ const Information = ({ profile, education, languages, skills }: props) => {
                 <div className="educations">
                     <h2>Education</h2>
                     {education ? separateEducationWithStar(education) : ""}
+                </div>
+                <div className="certifications">
+                    <h2>Certifications</h2>
+                    {certifications
+                        ? separateCertificationWithStar(certifications)
+                        : ""}
                 </div>
                 <div className="languages">
                     <h2>Languages</h2>
@@ -41,8 +54,8 @@ const Information = ({ profile, education, languages, skills }: props) => {
 function separateEducationWithStar(array: any) {
     return array.map((elem: any, index: number) => {
         return (
-            <>
-                <div key={elem.place}>
+            <div key={elem.title}>
+                <div>
                     <h3>{elem.title}</h3>
                     <p>{elem.place}</p>
                     <p>{elem.duration}</p>
@@ -52,7 +65,27 @@ function separateEducationWithStar(array: any) {
                         <PiStarFourFill />
                     </div>
                 )}
-            </>
+            </div>
+        );
+    });
+}
+
+function separateCertificationWithStar(array: any) {
+    return array.map((elem: any, index: number) => {
+        return (
+            <div key={elem.title}>
+                <div>
+                    <h3>{elem.title}</h3>
+                    <p>
+                        {elem.place} - {elem.date}
+                    </p>
+                </div>
+                {index + 1 !== array.length && (
+                    <div className="star">
+                        <PiStarFourFill />
+                    </div>
+                )}
+            </div>
         );
     });
 }
@@ -60,8 +93,8 @@ function separateEducationWithStar(array: any) {
 function separateLangWithStar(array: any) {
     return array.map((elem: any, index: number) => {
         return (
-            <>
-                <div key={elem.name}>
+            <div key={elem.name}>
+                <div>
                     <h3>{elem.name}</h3>
                     <TbMinusVertical />
                     <p>{elem.level}</p>
@@ -71,7 +104,7 @@ function separateLangWithStar(array: any) {
                         <PiStarFourFill />
                     </div>
                 )}
-            </>
+            </div>
         );
     });
 }

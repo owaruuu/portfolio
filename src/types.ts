@@ -9,6 +9,7 @@ export type siteData = {
     profile: string;
     location: string;
     education: education[];
+    certifications: certification[];
     languages: language[];
     skills: string[];
 };
@@ -26,6 +27,12 @@ export type education = {
     title: string;
     place: string;
     duration: string;
+};
+
+export type certification = {
+    title: string;
+    place: string;
+    date: string;
 };
 
 export type language = {

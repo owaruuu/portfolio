@@ -8,6 +8,6 @@ const instance = axios.create();
 export const getData = async (): Promise<siteData> => {
     const response = await instance.get(`${API_URL}`);
 
-    console.log("🚀 ~ getData ~ response:", response);
+    // console.log("🚀 ~ getData ~ response:", response);
     return response.data.data;
 };

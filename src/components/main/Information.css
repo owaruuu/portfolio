@@ -36,6 +36,19 @@
 .information .educations div {
   gap: 20px;
 }
+.information .certifications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 676px) {
+  .information .certifications {
+    margin-bottom: 30px;
+  }
+}
+.information .certifications div {
+  gap: 20px;
+}
 .information .languages {
   display: flex;
   flex-direction: column;

@@ -18,6 +18,7 @@ function App() {
         projects: dataQuery.data?.projects,
         profile: dataQuery.data?.profile,
         education: dataQuery.data?.education,
+        certifications: dataQuery.data?.certifications,
         languages: dataQuery.data?.languages,
         skills: dataQuery.data?.skills,
     };
